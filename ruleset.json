@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "redirect", "redirect": { "url": "data:text/html, get back to work you cow" } },
+        "condition": {
+            "urlFilter": "youtube.com/|",
+            "resourceTypes": ["main_frame"]
+        }
+    }
+]
