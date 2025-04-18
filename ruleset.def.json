@@ -2,10 +2,13 @@
     {
         "id": 1,
         "priority": 1,
-        "action": { "type": "redirect", "redirect": { "url": "file:///D:/hproj/cowductivity-ext/cowductivity/ea.html" } },
+        // link to redirect
+        "action": { "type": "redirect", "redirect": { "url": "file:///path/to/cowductivity/ea.html" } },
         "condition": {
+            // link to block
             "urlFilter": "youtube.com",
             "resourceTypes": ["main_frame"]
         }
     }
 ]
+
