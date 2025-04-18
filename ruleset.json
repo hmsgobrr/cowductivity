@@ -2,9 +2,9 @@
     {
         "id": 1,
         "priority": 1,
-        "action": { "type": "redirect", "redirect": { "url": "data:text/html, get back to work you cow" } },
+        "action": { "type": "redirect", "redirect": { "url": "file:///D:/hproj/cowductivity-ext/cowductivity/ea.html" } },
         "condition": {
-            "urlFilter": "youtube.com/|",
+            "urlFilter": "youtube.com",
             "resourceTypes": ["main_frame"]
         }
     }
