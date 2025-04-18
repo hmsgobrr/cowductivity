@@ -14,11 +14,9 @@ copy `ruleset.def.json` (or the code below), rename it to `ruleset.json`, and sp
     {
         "id": 1,
         "priority": 1,
-        // link to redirect
-        "action": { "type": "redirect", "redirect": { "url": "file:///path/to/cowductivity/ea.html" } },
+        "action": { "type": "redirect", "redirect": { "url": "file:///path/to/cowductivity/ea.html (link to redirect)" } },
         "condition": {
-            // link to block
-            "urlFilter": "youtube.com",
+            "urlFilter": "youtube.com (link to block)",
             "resourceTypes": ["main_frame"]
         }
     }
